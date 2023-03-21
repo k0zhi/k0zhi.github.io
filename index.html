@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Artist Name - Online Music Streaming</title> 
+  <link rel="stylesheet" href="style.css"> 
+ </head> 
+ <body> 
+  <style>
+    /* General Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8EdhKmR-pRqGDrCQdxI_5wAwtS5DEz4-ZpQ');
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+a {
+  text-decoration: none;
+  color: #f00;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #000;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  margin: 0 10px;
+}
+
+/* Hero Section Styles */
+
+#hero {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKNiRY5OS2joVr31tXoFXSu9CEBr2lQm5WA');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 40px;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+#hero .cta {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Main Content Styles */
+
+main {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 40px;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+section ul li a {
+  font-size: 24px;
+}
+
+/* Contact Form Styles */
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: none;
+}
+  </style>
+  
+  <header> 
+   <h1>Artist Name</h1> 
+   <nav> 
+    <ul> 
+     <li><a href="#about">About</a></li> 
+     <li><a href="#music">Music</a></li> 
+     <li><a href="#merch">Merchandise</a></li> 
+     <li><a href="#contact">Contact</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+  <main> 
+   <section id="hero"> 
+    <h2>Welcome to the official website of Artist Name</h2> 
+    <p>Stream the latest music from Artist Name and stay up-to-date on all the latest news and releases.</p> <a href="#" class="cta">Stream Now</a> 
+   </section> 
+   <section id="about"> 
+    <h2>About Artist Name</h2> 
+    <p>Artist Name is a musical artist who has been active since [year]. Known for [description], Artist Name has released several albums and singles that have received critical acclaim and commercial success.</p> 
+    <p>Learn more about Artist Name's history, influences, and creative process.</p> <a href="#" class="cta">Read More</a> 
+   </section> 
+   <section id="music"> 
+    <h2>Music</h2> 
+    <p>Stream or download the latest releases from Artist Name.</p> 
+    <ul> 
+     <li><a href="#">Song Title 1</a></li> 
+     <li><a href="#">Song Title 2</a></li> 
+     <li><a href="#">Song Title 3</a></li> 
+     <li><a href="#">Song Title 4</a></li> 
+     <li><a href="#">Song Title 5</a></li> 
+    </ul> 
+   </section> 
+   <section id="merch"> 
+    <h2>Merchandise</h2> 
+    <p>Show your support for Artist Name by purchasing official merchandise.</p> 
+    <ul> 
+     <li><a href="#">T-Shirt</a></li> 
+     <li><a href="#">Hoodie</a></li> 
+     <li><a href="#">Poster</a></li> 
+     <li><a href="#">Sticker</a></li> 
+    </ul> 
+   </section> 
+   <section id="contact"> 
+    <h2>Contact Artist Name</h2> 
+    <p>Have a question or comment for Artist Name? Get in touch.</p> 
+    <form action="#"> <label for="name">Name</label> 
+     <input type="text" id="name" name="name" required> <label for="email">Email</label> 
+     <input type="email" id="email" name="email" required> <label for="message">Message</label> <textarea id="message" name="message" required></textarea> <button type="submit">Send</button> 
+    </form> 
+   </section> 
+  </main> 
+  <footer> 
+   <p>© 2023 Artist Name. All rights reserved.</p> 
+  </footer> 
+  <script src="app.js"></script> 
+ 
+</body></html>
